@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 
 #   Made by Mamkin_Xakep
@@ -111,4 +111,3 @@ fastboot reboot
 echo 'Готово!'
 
 echo 'Разблокировка загрузчика успешно произведена. Если вы столкнулись с какими-то ошибками в работе, сообщите нам пожалуйста в Github Issues.'
-```
