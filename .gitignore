@@ -1,0 +1,4 @@
+tools/__pycache__/
+tools/p31317.txt
+chkcode_backup*.bin
+chkcode_backup*.sha256
