@@ -42,7 +42,7 @@ fi
 # 2. ЭКСПЛУАТАЦИЯ И ЗАПУСК DIAG
 echo 'Активация DIAG-интерфейса...'
 python3 tools/cve31317.py
-python3 kdiag_shell.py "setprop vendor.kc.diag.status start"
+python3 tools/kdiag_shell.py "setprop vendor.kc.diag.status start"
 echo 'Готово!'
 
 # 3. КРИТИЧЕСКИЙ ЭТАП: БЭКАП CHKCODE
@@ -71,7 +71,7 @@ echo 'Перезагрузка в режим fastboot...'
 adb reboot bootloader
 
 echo 'Ожидание подключения в режиме fastboot (около 10 секунд)...'
-sleep 7
+sleep 12
 
 # Проверяем, видит ли fastboot устройство
 FASTBOOT_CHECK=$(fastboot devices)
@@ -83,11 +83,10 @@ fi
 echo 'Устройство успешно найдено в режиме Fastboot!'
 
 # 6. РАЗБЛОКИРОВКА ЗАГРУЗЧИКА
-echo 'Выполняется разблокировка загрузчика... Пожалуйста, подтвердите запрос на экране телефона!'
-if ! fastboot flashing unlock; then
-    echo "Ошибка: Команда разблокировки отклонена устройством или прервана."
-    exit 1
-fi
+echo 'Выполняется разблокировка загрузчика...'
+fastboot flashing unlock
+echo 'Пожалуйста, подтвердите запрос на экране телефона!'
+sleep 12
 echo 'Готово!'
 
 # 7. ОЧИСТКА РАЗДЕЛА (ВОЗВРАТ К СТАНДАРТНОМУ CHKCODE)
