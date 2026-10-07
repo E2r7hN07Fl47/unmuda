@@ -90,6 +90,8 @@ sh unlock.sh
 
 1. E2r7hN07Fl47: [GitHub](https://github.com/E2r7hN07Fl47)
 2. Mamkin_Xakep: [e-mail](mailto:mamkin@xakep.xyz), [Telegram](https://t.me/Mamkin_Xakep_bot)
+3. radio_mudrec: [4pda](https://4pda.to/forum/index.php?showuser=9245164) - багфиксы в unlock.sh
+4. Stoobyy: [GitHub](https://github.com/Stoobyy) - Перевод на английский, багфиксы
 
 ## Используемые LLM
 
@@ -113,7 +115,3 @@ This project builds upon the discovery, patching, and subsequent research of **C
 * **JD Labs (京东獬豸信息安全实验室)** — Conducted an in-depth technical analysis and architectural comparison with historical attacks.
 * **agg23** — Created comprehensive documentation and detailed breakdowns of the injection architecture.
 * **rabits** — Developed and published the functional Proof-of-Concept (PoC) exploit showcasing privilege escalation via ADB.
-
-### Others / Прочие
-*  radio_mudrec: [4pda](https://4pda.to/forum/index.php?showuser=9245164) - нахождение проблем в unlock.sh 
-* Stoobyy: [GitHub](https://github.com/Stoobyy) - Перевод на английский, некоторые фиксы
