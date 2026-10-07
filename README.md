@@ -97,6 +97,8 @@ sh unlock.sh
 
 Вспомогательным инструментом был приватный Telegram-бот за авторством Lach: [GitHub](https://github.com/CertainLach)
 
+Для перевода и внешнего анализа использовалась неизвестная модель Claude за авторством Antropic. (В пользовании Stoobyy)
+
 ## Special thanks
 
 This project builds upon the discovery, patching, and subsequent research of **CVE-2024-31317** (Android Zygote Command Injection). Special thanks to the security researchers and teams who made this work possible:
@@ -114,3 +116,4 @@ This project builds upon the discovery, patching, and subsequent research of **C
 
 ### Others / Прочие
 *  radio_mudrec: [4pda](https://4pda.to/forum/index.php?showuser=9245164) - нахождение проблем в unlock.sh 
+* Stoobyy: [GitHub](https://github.com/Stoobyy) - Перевод на английский, некоторые фиксы

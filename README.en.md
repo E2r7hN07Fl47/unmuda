@@ -104,6 +104,8 @@ The main model used for development was GLM 5.3 by [Z.ai](https://chat.z.ai) (ex
 
 An auxiliary tool was a private Telegram bot by Lach: [GitHub](https://github.com/CertainLach)
 
+An unknown model Claude by Anthropic, was used for translation and external analysis. (Used by Stoobyy)
+
 ## Special thanks
 
 This project builds upon the discovery, patching, and subsequent research of **CVE-2024-31317** (Android Zygote Command Injection). Special thanks to the security researchers and teams who made this work possible:
@@ -121,3 +123,4 @@ This project builds upon the discovery, patching, and subsequent research of **C
 
 ### Others
 *  radio_mudrec: [4pda](https://4pda.to/forum/index.php?showuser=9245164) - for finding problems in unlock.sh
+* Stoobyy: [GitHub](https://github.com/Stoobyy) - English translation, some fixes

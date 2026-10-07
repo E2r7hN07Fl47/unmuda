@@ -216,7 +216,7 @@ def main():
 
     print("[3/5] собираю payload...")
     p = Path("p31317.txt")
-    p.write_text(payload, encoding="utf-8")
+    p.write_text(payload, encoding="utf-8", newline="\n")
     print(f"      payload: {len(payload)} байт -> {p}")
 
     print("[4/5] push payload...")
