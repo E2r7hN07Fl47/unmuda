@@ -19,7 +19,7 @@ partition).
 
 ## Requirements
 
-1. Balmuda Phone A101BM on firmware version 1.220 - 1.280 (tested with -PO and -MI firmwares) with USB debugging enabled and the "Factory unlock" item activated
+1. Balmuda Phone on firmware version 1.220 - 1.280 (tested with -PO and -MI firmwares) with USB debugging enabled and the "Factory unlock" item activated
 2. A USB-C cable capable of data transfer
 3. A computer\laptop\tablet with Linux or Windows with WSL (Windows without WSL and macOS were not tested)
 
